@@ -3,11 +3,11 @@ For general purpose of project and notes on the original data and measurements p
 
 purpose of course project is as follows
 
-1- Merges the training and the test sets to create one data set.
-2- Extracts only the measurements on the mean and standard deviation for each measurement. 
-3- Uses descriptive activity names to name the activities in the data set
-4- Appropriately labels the data set with descriptive variable names. 
-5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Description of Files Used
 
@@ -47,5 +47,5 @@ create a second tidy data set with the average of each variable for each activit
 1. use aggregate function to get mean of all coulumn by spliiting data by activity and subject
 2. remove additional coulumns for mean of subject and activity
 3. creatre new text from tidy data set
-4. 
+
 ## Description of the variables in the tiny_data.txt file
