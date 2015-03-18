@@ -18,6 +18,6 @@ The original raw data linked used represent data collected from the acceleromete
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # CodeBook.md
-Codebook.md containsinformation on the contents of the files, description of variables of output file tidy_data.txt and steps followed for merging and tidying the data.
+Codebook.md contains information on the contents of the files, description of variables of output file tidy_data.txt and steps followed for merging and tidying the data.
 
 
