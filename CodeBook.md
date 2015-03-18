@@ -1,7 +1,7 @@
 ## Project Description
 For purpose of project and notes on the original data and measurements please refer to link in ReadMe.md file
 
-# Description of Files Used
+## Description of Files Used
 
 # General files
 
@@ -26,6 +26,18 @@ X_train.txt [10299X561] : values for the different 561 variables that are descri
 y_train.txt [10299X561] : a value from 1 to 6 denoting the different activities described in activity_lables.txt
 
 
-## Cleaning of Data
+## Merging and Cleaning of Data
+
+Merging: merge 2 data sets of test and train into one: read training and test data files and merge using rbind for each of 3 text files in the test/train data folder
+
+Cleaning: rename columns using data from features.txt file, only inlcude columns that are mean or STD. Then use Cbind to create new clean data using the 3 output tables from the previous rbind
+
 ## Creating Tidy Data file
+
+create a second tidy data set with the average of each variable for each activity and each subject
+
+1. use aggregate function to get mean of all coulumn by spliiting data by activity and subject
+2. remove additional coulumns for mean of subject and activity
+3. creatre new text from tidy data set
+4. 
 ## Description of the variables in the tiny_data.txt file
